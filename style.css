@@ -356,7 +356,7 @@ footer .rights{
 
 /* design for mobile */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px){
     html{
         font-size: 14px;
     }
@@ -367,6 +367,9 @@ footer .rights{
         margin: 0px 20px;
     }
     /* nav section */
+    .logo{
+        margin: 0px auto 0px auto;
+    }
     nav ul{
         display: none;
     }
@@ -377,14 +380,14 @@ footer .rights{
     .banner form{
         margin: 0px auto 0px auto;
         display: flex;
-        width: 287px;
+        width: 76.5%;
         flex-direction: column;
         align-items: center;
         gap: 16px;
 
     }
     .banner form .input-text,.banner button{
-        width: 255px;
+        width: 88.9%;
         height: 52px;
     }
     /* tours section */
@@ -421,19 +424,22 @@ footer .rights{
     /* deals section */
     .tour-box{
         line-height: 0;
-        padding: 25px 25px 0px 25px;
+        padding: 10px 10px 10px 10px;
         width: 75%;
-        height: 297px;
-        margin: 140px 16px 0px 16px;
+        height: auto;
+        margin: 0px auto 0px auto;
+    }
+    .tour-box p{
+        line-height: normal;
     }
     .tour-box-containar2, .tour-box-containar1{
         border-radius: 16px;
     }
     .tour-box-containar2 .tour-box{
-        margin-left: 16px;
+        margin: 0px auto 0px auto;
     }
-    .tour-box .details p{
-        margin-right: 18px;
+    .tour-box .details{
+        display: inline;
     }
     .book-now{
         height: 40px;
@@ -460,13 +466,11 @@ footer .rights{
         padding-bottom: 20px;
     }
     .letter-form input{
-        width: 288px;
         padding-left: 20px;
         padding-right: 0px;
     }
     .letter-form button{
         margin-top: 24px;
-        width: 300px;
     }
     .letter-img img{
         margin-top: 24px;
@@ -477,10 +481,10 @@ footer .rights{
         border-radius: 10px;
     }
     .save-upto h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .save-upto h2{
-        font-size: 1.1rem;
+        font-size: .8rem;
     }
 
 
